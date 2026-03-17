@@ -4,7 +4,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:uuid/uuid.dart';
 import '../models/session.dart';
 import '../models/question.dart';
-import '../models/photo.dart';
 import '../models/devotional.dart';
 
 class RealtimeDatabaseService {
@@ -118,26 +117,21 @@ class RealtimeDatabaseService {
     await _db.ref('devotionals/$id').remove();
   }
 
-  // --- Gallery ---
-  Stream<List<Photo>> getPhotos() {
-    return _db.ref('gallery_meta').onValue.map((event) {
-      final Map<dynamic, dynamic>? data = event.snapshot.value as Map?;
-      if (data == null) return [];
-
-      return data.entries.map((e) {
-        return Photo.fromMap(e.key.toString(), e.value as Map);
-      }).toList()..sort((a, b) => b.timestamp.compareTo(a.timestamp));
-    });
-  }
-
-  Future<void> addPhotoMetadata(Photo photo) async {
-    await _db.ref('gallery_meta').push().set(photo.toMap());
-  }
-
   // --- Admin ---
   Future<String?> getAdminSecret() async {
     final snapshot = await _db.ref('admin_config/secret').get();
     return snapshot.value?.toString();
+  }
+
+  Stream<bool> getGalleryUploadEnabled() {
+    return _db.ref('admin_config/allow_client_gallery_uploads').onValue.map((event) {
+      if (event.snapshot.value == null) return false;
+      return event.snapshot.value as bool;
+    });
+  }
+
+  Future<void> setGalleryUploadEnabled(bool enabled) async {
+    await _db.ref('admin_config/allow_client_gallery_uploads').set(enabled);
   }
 
   Future<void> broadcastBroadcastNotification(String message) async {

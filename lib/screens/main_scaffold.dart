@@ -7,7 +7,6 @@ import '../screens/live_dashboard.dart';
 import '../screens/devotionals_tab.dart';
 import '../screens/gallery_tab.dart';
 import '../screens/qa_tab.dart';
-import '../screens/treasure_hunt_screen.dart';
 import '../services/database_service.dart';
 import '../theme/app_theme.dart';
 

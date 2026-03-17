@@ -1,0 +1,316 @@
+{
+  "sessions": {
+    "saturday_01": {
+      "title": "وصول وتوزيع الغرف",
+      "description": "",
+      "startTime": 1774512000000,
+      "endTime": 1774513800000,
+      "location": "بيت العجايبي",
+      "resources": []
+    },
+    "saturday_02": {
+      "title": "صلاة + مقدمة",
+      "description": "",
+      "startTime": 1774513800000,
+      "endTime": 1774515600000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "saturday_03": {
+      "title": "ما هو الإيمان من وجهة نظرك",
+      "description": "مناقشة عامة",
+      "startTime": 1774515600000,
+      "endTime": 1774517400000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "saturday_04": {
+      "title": "فقرة تسبيح...",
+      "description": "",
+      "startTime": 1774517400000,
+      "endTime": 1774519200000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "saturday_05": {
+      "title": "بالإيمان ...... عب 11",
+      "description": "درس كتاب",
+      "startTime": 1774519200000,
+      "endTime": 1774522800000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "saturday_06": {
+      "title": "خلوة",
+      "description": "",
+      "startTime": 1774522800000,
+      "endTime": 1774525500000,
+      "location": "",
+      "resources": []
+    },
+    "saturday_07": {
+      "title": "مخدع + صلاة التاسعة",
+      "description": "قض 6 : 36 - 40 و مت 8 : 5 - 13",
+      "startTime": 1774525500000,
+      "endTime": 1774528200000,
+      "location": "الغرف",
+      "resources": []
+    },
+    "saturday_08": {
+      "title": "غداء + راحة",
+      "description": "",
+      "startTime": 1774528200000,
+      "endTime": 1774539000000,
+      "location": "المطعم",
+      "resources": []
+    },
+    "saturday_09": {
+      "title": "صلاة الغروب",
+      "description": "",
+      "startTime": 1774539000000,
+      "endTime": 1774540800000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "saturday_10": {
+      "title": "فقرة تسبيح...",
+      "description": "",
+      "startTime": 1774540800000,
+      "endTime": 1774543500000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "saturday_11": {
+      "title": "أبو المجنون مر 9 : 24",
+      "description": "سلسلة 10 ق",
+      "startTime": 1774543500000,
+      "endTime": 1774544400000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "saturday_12": {
+      "title": "موروث أم اختيار",
+      "description": "مج. مناقشة",
+      "startTime": 1774544400000,
+      "endTime": 1774548000000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "saturday_13": {
+      "title": "شاي",
+      "description": "",
+      "startTime": 1774548000000,
+      "endTime": 1774549800000,
+      "location": "الكانتين",
+      "resources": []
+    },
+    "saturday_14": {
+      "title": "الإيمان والأعمال",
+      "description": "كلمة",
+      "startTime": 1774549800000,
+      "endTime": 1774553400000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "saturday_15": {
+      "title": "عشاء",
+      "description": "",
+      "startTime": 1774553400000,
+      "endTime": 1774557000000,
+      "location": "المطعم",
+      "resources": []
+    },
+    "saturday_16": {
+      "title": "تسبحة نصف الليل",
+      "description": "",
+      "startTime": 1774557000000,
+      "endTime": 1774560600000,
+      "location": "الكنيسة",
+      "resources": []
+    },
+    "sunday_01": {
+      "title": "استيقاظ",
+      "description": "",
+      "startTime": 1774587600000,
+      "endTime": 1774589400000,
+      "location": "الغرف",
+      "resources": []
+    },
+    "sunday_02": {
+      "title": "قداس",
+      "description": "",
+      "startTime": 1774589400000,
+      "endTime": 1774598400000,
+      "location": "الكنيسة",
+      "resources": []
+    },
+    "sunday_03": {
+      "title": "فطار",
+      "description": "",
+      "startTime": 1774598400000,
+      "endTime": 1774602000000,
+      "location": "المطعم",
+      "resources": []
+    },
+    "sunday_04": {
+      "title": "فقرة تسبيح...",
+      "description": "",
+      "startTime": 1774602000000,
+      "endTime": 1774604700000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "sunday_05": {
+      "title": "جارية نعمان 2مل 5",
+      "description": "سلسلة 10 ق",
+      "startTime": 1774604700000,
+      "endTime": 1774605600000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "sunday_06": {
+      "title": "عالم بمن آمنت",
+      "description": "كلمة : أ. روفائيل سمير",
+      "startTime": 1774605600000,
+      "endTime": 1774608300000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "sunday_07": {
+      "title": "خلوة...",
+      "description": "",
+      "startTime": 1774608300000,
+      "endTime": 1774611000000,
+      "location": "",
+      "resources": []
+    },
+    "sunday_08": {
+      "title": "مخدع + صلاة الساعة التاسعة",
+      "description": "مت 15 : 21 - 28 و مت 14 : 22- 33",
+      "startTime": 1774611000000,
+      "endTime": 1774614600000,
+      "location": "الغرف",
+      "resources": []
+    },
+    "sunday_09": {
+      "title": "غداء + راحة",
+      "description": "",
+      "startTime": 1774614600000,
+      "endTime": 1774625400000,
+      "location": "المطعم",
+      "resources": []
+    },
+    "sunday_10": {
+      "title": "صلاة الغروب",
+      "description": "",
+      "startTime": 1774625400000,
+      "endTime": 1774627200000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "sunday_11": {
+      "title": "فقرة تسبيح...",
+      "description": "",
+      "startTime": 1774627200000,
+      "endTime": 1774629900000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "sunday_12": {
+      "title": "سقوط الأسوار يش 6",
+      "description": "سلسلة 10 ق",
+      "startTime": 1774629900000,
+      "endTime": 1774630800000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "sunday_13": {
+      "title": "الإيمان والمعجزة",
+      "description": "مج. مناقشة",
+      "startTime": 1774630800000,
+      "endTime": 1774634400000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "sunday_14": {
+      "title": "شاي",
+      "description": "",
+      "startTime": 1774634400000,
+      "endTime": 1774636200000,
+      "location": "الكانتين",
+      "resources": []
+    },
+    "sunday_15": {
+      "title": "زد إيماننا",
+      "description": "ورقة عمل",
+      "startTime": 1774636200000,
+      "endTime": 1774639800000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "sunday_16": {
+      "title": "عشاء",
+      "description": "",
+      "startTime": 1774639800000,
+      "endTime": 1774643400000,
+      "location": "المطعم",
+      "resources": []
+    },
+    "sunday_17": {
+      "title": "book club",
+      "description": "",
+      "startTime": 1774643400000,
+      "endTime": 1774647000000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "monday_01": {
+      "title": "استيقاظ",
+      "description": "",
+      "startTime": 1774679400000,
+      "endTime": 1774681200000,
+      "location": "الغرف",
+      "resources": []
+    },
+    "monday_02": {
+      "title": "صلاة باكر",
+      "description": "",
+      "startTime": 1774681200000,
+      "endTime": 1774683000000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "monday_03": {
+      "title": "فطار",
+      "description": "",
+      "startTime": 1774683000000,
+      "endTime": 1774686600000,
+      "location": "المطعم",
+      "resources": []
+    },
+    "monday_04": {
+      "title": "فقرة تسبيح...",
+      "description": "",
+      "startTime": 1774686600000,
+      "endTime": 1774689300000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "monday_05": {
+      "title": "توصيات وصلاة وختام",
+      "description": "",
+      "startTime": 1774689300000,
+      "endTime": 1774696500000,
+      "location": "القاعة",
+      "resources": []
+    },
+    "monday_06": {
+      "title": "تحرك للعودة",
+      "description": "",
+      "startTime": 1774695600000,
+      "endTime": 1774696500000,
+      "location": "الأتوبيسات",
+      "resources": []
+    }
+  }
+}

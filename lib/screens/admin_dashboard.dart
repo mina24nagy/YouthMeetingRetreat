@@ -5,6 +5,7 @@ import '../models/question.dart';
 import '../models/devotional.dart';
 import '../services/database_service.dart';
 import '../theme/app_theme.dart';
+import '../screens/gallery_tab.dart';
 
 class AdminDashboard extends StatelessWidget {
   const AdminDashboard({super.key});
@@ -85,10 +86,56 @@ class AdminDashboard extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 12),
-                  ...devotionals.map((d) => _buildDevotionalEditTile(context, d, db)).toList(),
+                  ...devotionals.map((d) => _buildDevotionalEditTile(context, d, db)),
                 ],
               );
             },
+          ),
+          const SizedBox(height: 24),
+          _buildSectionHeader('إدارة ألبوم الصور'),
+          Card(
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      const Text('السماح للجميع برفع الصور', style: TextStyle(fontSize: 16)),
+                      StreamBuilder<bool>(
+                        stream: db.getGalleryUploadEnabled(),
+                        builder: (context, snapshot) {
+                          final isEnabled = snapshot.data ?? false;
+                          return Switch(
+                            value: isEnabled,
+                            onChanged: (val) => db.setGalleryUploadEnabled(val),
+                            activeColor: AppTheme.primaryBlue,
+                          );
+                        },
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 16),
+                  ElevatedButton.icon(
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const GalleryTab(isAdmin: true),
+                        ),
+                      );
+                    },
+                    icon: const Icon(Icons.photo_library),
+                    label: const Text('إدارة الصور (إضافة صور جديدة)'),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppTheme.primaryBlue,
+                      foregroundColor: Colors.white,
+                      minimumSize: const Size(double.infinity, 50),
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ),
         ],
       ),

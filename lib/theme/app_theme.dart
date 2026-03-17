@@ -14,7 +14,6 @@ class AppTheme {
         primary: primaryBlue,
         secondary: slateGrey,
         surface: Colors.white,
-        background: backgroundWhite,
       ),
       scaffoldBackgroundColor: backgroundWhite,
       appBarTheme: const AppBarTheme(

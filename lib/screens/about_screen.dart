@@ -79,14 +79,13 @@ class AboutScreen extends StatelessWidget {
           ElevatedButton(
             onPressed: () async {
               final secret = await db.getAdminSecret();
+              if (!context.mounted) return;
               if (pinController.text == secret) {
                 Navigator.pop(context);
-                if (context.mounted) {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => const AdminDashboard()),
-                  );
-                }
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const AdminDashboard()),
+                );
               } else {
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(content: Text('رقم سر غير صحيح')),

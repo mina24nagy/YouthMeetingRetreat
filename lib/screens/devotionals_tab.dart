@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/devotional.dart';
 import '../services/database_service.dart';
-import '../theme/app_theme.dart';
 import '../screens/devotional_detail_screen.dart';
 
 class DevotionalsTab extends StatelessWidget {
